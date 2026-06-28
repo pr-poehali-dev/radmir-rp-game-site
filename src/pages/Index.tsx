@@ -69,7 +69,7 @@ export default function Index() {
               <Icon name="Gamepad2" size={20} className="text-primary-foreground" />
             </div>
             <span className="font-display text-2xl font-bold tracking-wider">
-              RADMIR<span className="text-primary">RP</span>
+              LAME<span className="text-primary">CRMP</span>
             </span>
           </button>
           <nav className="hidden md:flex items-center gap-1">
@@ -268,7 +268,7 @@ export default function Index() {
           <div className="flex items-center gap-2">
             <Icon name="Gamepad2" size={20} className="text-primary" />
             <span className="font-display text-lg font-bold tracking-wider">
-              RADMIR<span className="text-primary">RP</span>
+              LAME<span className="text-primary">CRMP</span>
             </span>
           </div>
           <p className="text-sm text-muted-foreground">© 2026 Radmir RP. Все права защищены.</p>
