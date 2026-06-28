@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Icon from '@/components/ui/icon';
 import { Button } from '@/components/ui/button';
 
@@ -52,6 +53,7 @@ const rankMedal = (rank: number) => {
 };
 
 export default function Index() {
+  const navigate = useNavigate();
   const [active, setActive] = useState('home');
 
   const scrollTo = (id: string) => {
@@ -85,7 +87,7 @@ export default function Index() {
               </button>
             ))}
           </nav>
-          <Button className="font-display uppercase tracking-wide box-glow-red">
+          <Button onClick={() => navigate('/auth')} className="font-display uppercase tracking-wide box-glow-red">
             <Icon name="LogIn" size={16} className="mr-1" /> Войти
           </Button>
         </div>
