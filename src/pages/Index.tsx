@@ -113,9 +113,11 @@ export default function Index() {
               Погрузись в живой мир ролевой игры. Строй карьеру, вступай в банды, зарабатывай репутацию и поднимайся в рейтинге лучших игроков.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Button size="lg" className="font-display text-base uppercase tracking-wide box-glow-red hover-scale">
-                <Icon name="Play" size={18} className="mr-2" /> Начать играть
-              </Button>
+              <a href="https://disk.yandex.com/d/OP8cqjlk9qWqOg" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="font-display text-base uppercase tracking-wide box-glow-red hover-scale">
+                  <Icon name="Download" size={18} className="mr-2" /> Начать играть
+                </Button>
+              </a>
               <Button
                 size="lg"
                 variant="outline"
